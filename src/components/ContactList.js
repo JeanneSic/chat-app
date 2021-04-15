@@ -35,6 +35,7 @@ const users = [
           {users.map(
               user => (
                   <Contact 
+                    key = {user.name}
                     name={user.name} 
                     avatar={user.avatar}
                     online= {user.online}
